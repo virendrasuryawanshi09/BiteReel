@@ -3,6 +3,7 @@ import axios from 'axios';
 import '../../styles/reels.css'
 import ReelFeed from '../../components/ReelFeed'
 
+
 const Home = () => {
     const [ videos, setVideos ] = useState([])
     // Autoplay behavior is handled inside ReelFeed
